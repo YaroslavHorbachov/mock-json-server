@@ -1,0 +1,27 @@
+{
+  "name": "mock-json-server",
+  "version": "1.0.0",
+  "description": "JSON server example",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server",
+    "start": "json-server --watch src/db.json",
+    "commitizen": "commitizen",
+    "commit": "cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commitizen": "^4.2.4",
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
